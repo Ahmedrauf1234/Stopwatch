@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assests/icon.jpg" type="image/x-icon">
+    <style>
+        .btn{
+            box-shadow: 4px 4px 10px black;
+        }
+    </style>
+</head>
+<body class="bg-[#003049]">
+    <h1 class="text-4xl text-center text-[#ccd5ae] mt-3 font-bold">Stopwatch</h1>
+    <div class="parant border-2 mt-10 bg-[#457b9d] py-10 border-solid border-[#457b9d] w-[50%] m-auto">
+        
+        <div class="flex gap-3 justify-center wrap items-center">
+            <div class="flex">
+                <h1 class="border-2 w-[70px] text-center border-solid border-[#000000] p-2 font-bold text-2xl " id="hour">00</h1><span class="text-[9px] mt-10  font-bold ml-1">Hours</span>
+            </div>
+           <div class="flex">
+            <h1 class="border-2 w-[70px] text-center  border-solid border-[#000000] p-2 font-bold text-2xl " id="min">00</h1><span class="text-[9px] mt-10  font-bold ml-1">Min</span>
+           </div>
+           
+           <div class="flex">
+            <h1 class="border-2 w-[70px] text-center   border-solid border-[#000000] p-2 font-bold text-2xl " id="sec">00</h1><span class="text-[9px] mt-10 font-bold ml-1">Sec</span>
+           </div>
+           <div class="flex">
+            <h1 class="border-2 w-[70px] text-center   border-solid border-[#000000] p-2 font-bold text-2xl " id="msec">00</h1>
+           </div>
+            
+         </div>
+         
+    <div class=" text-center mt-10">
+         <button id="start" class=" dis btn border-2 border-solid border-[#8d99ae] text-lg rounded-sm w-[100px] bg-[#8d99ae]" ">Start</button>
+         <button  onclick="stopbtn()" class=" btn border-2 border-solid border-[#8d99ae] text-lg rounded-sm w-[100px] bg-[#8d99ae]" ">Stop</button>
+         <button id="reset" class=" btn border-2 border-solid border-[#8d99ae] text-lg rounded-sm w-[100px] bg-[#8d99ae]">Reset</button>
+        </div>
+    </div>
+    
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
